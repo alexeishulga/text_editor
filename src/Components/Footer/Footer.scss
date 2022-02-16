@@ -1,0 +1,18 @@
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    background: black;
+    color: white;
+    width: 100%;
+    h2 {
+        text-shadow: 0px 0px 6px white;
+    }
+    a {
+        text-shadow: 0px 0px 6px white;
+        color: white;
+    }
+  }
+

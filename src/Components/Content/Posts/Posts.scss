@@ -1,0 +1,62 @@
+.content__post{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+    .post{
+      width: 24%;
+      background-color: white;
+      border-radius: .5rem;
+      border: solid 0.1rem black;
+      margin-bottom: 1rem;
+      margin-left: 0.5rem;
+      .post__top{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        justify-content: space-between;
+        width: 100%;
+
+        padding: .5rem;
+        span{
+          font-size: 1.5rem;
+          margin-left: .3rem;
+          cursor: pointer;
+          &:hover {
+           color:red; 
+          }
+        }
+      }
+      .posts{
+        padding: 1rem;
+        textarea{
+          padding: .5rem;
+          width: 100%;
+          border: solid 0.1rem black;
+          height: auto;
+        }
+        p{
+          word-wrap: break-word;
+          color: rgb(0, 0, 0);
+          span{
+            color: rgb(0, 0, 0)
+          }
+        }
+        div{
+          display: flex;
+          flex-wrap: wrap;
+          padding: .5rem;
+          .tag{
+            padding: .5rem;
+            border-radius: 1rem;
+            margin: 0 0.5rem 0.5rem 0;
+            border: solid 0.1rem black;
+            background-color: black;
+            color: white;
+            word-break: break-all;
+          }
+        }
+      }
+    }
+  }
